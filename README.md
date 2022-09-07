@@ -6,7 +6,7 @@ To build it:
 
 ```
 docker build . --tag hjhart/playdate-sdk
-docker push 
+docker push hjhart/playdate-sdk
 ```
 
 See the docker image here: https://hub.docker.com/repository/docker/hjhart/playdate-sdk

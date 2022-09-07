@@ -6,3 +6,5 @@ RUN curl -OL https://download.panic.com/playdate_sdk/Linux/PlaydateSDK-latest.ta
 RUN tar -xf PlaydateSDK-latest.tar.gz 
 RUN mv PlaydateSDK-1.12.3 playdate
 RUN export PATH=/usr/src/playdate/bin:$PATH
+
+WORKDIR /usr/local/src/
