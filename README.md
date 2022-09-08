@@ -1,6 +1,6 @@
 # Playdate SDK Docker image
 
-This docker image allows you to write playdate Lua code, and compile it without needing to install the SDK on your workstation. Obviously, no simulator can be run inside the docker image but after compiling you can grab the .pdx file and do with it what you want!
+This docker image allows you to write playdate Lua code, and compile it without needing to install the SDK on your workstation. Obviously, no simulator can be run inside the docker image but after compiling you can grab the `.pdx/` directory and do with it what you want!
 
 # Usage 
 
