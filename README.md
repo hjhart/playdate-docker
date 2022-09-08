@@ -7,7 +7,7 @@ This docker image allows you to write playdate Lua code, and compile it without 
 To compile a main.lua file in the current directory:
 
 ```
-docker run -v $(pwd):$(pwd) --rm -it hjhart/playdate-sdk main.lua
+docker run -v $(pwd):$(pwd) -w $(pwd) --rm -it hjhart/playdate-sdk main.lua
 ```
 
 See the docker image here: https://hub.docker.com/repository/docker/hjhart/playdate-sdk
