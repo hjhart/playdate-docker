@@ -1,3 +1,14 @@
+-- NOTE:
+-- This file is a direct copy from the playdate lua documentation
+-- It allows you to test out how compiling within the docker image works.
+
+
+
+
+
+
+
+
 
 
 -- Name this file `main.lua`. Your game can use multiple source files if you wish
